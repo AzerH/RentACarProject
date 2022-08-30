@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Core\\Core.csproj": {}
+    "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Core\\Core.csproj": {
+    "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Qwerty\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,22 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.17, )"

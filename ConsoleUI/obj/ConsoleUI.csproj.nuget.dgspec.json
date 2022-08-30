@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\ConsoleUI\\ConsoleUI.csproj": {}
+    "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Business\\Business.csproj": {
+    "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\Qwerty\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Business\\obj\\",
+        "outputPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Entities\\Entities.csproj"
               }
             }
           }
@@ -46,6 +46,24 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -65,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\ConsoleUI\\ConsoleUI.csproj": {
+    "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\Qwerty\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\ConsoleUI\\obj\\",
+        "outputPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +107,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Business\\Business.csproj"
+              "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Business\\Business.csproj"
               }
             }
           }
@@ -123,14 +141,14 @@
         }
       }
     },
-    "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Core\\Core.csproj": {
+    "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Qwerty\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -159,6 +177,22 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.17, )"
@@ -183,14 +217,14 @@
         }
       }
     },
-    "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Qwerty\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -207,11 +241,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Core\\Core.csproj"
+              "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj"
               },
-              "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Entities\\Entities.csproj"
               }
             }
           }
@@ -254,14 +288,14 @@
         }
       }
     },
-    "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Qwerty\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -278,8 +312,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\ReCarProject\\Core\\Core.csproj"
+              "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj"
               }
             }
           }
