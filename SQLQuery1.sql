@@ -1,0 +1,1 @@
+﻿create table CarImages (  ImageId int primary key  identity (1,1),  CarId int not null,  ImagePath nvarchar(100),  Date DateTime)
