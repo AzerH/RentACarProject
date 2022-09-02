@@ -11,50 +11,50 @@ using System.Threading.Tasks;
 
 namespace Business.Concrete
 {
-    public class RentalManager : IRentalsService
+    public class RentalManager : IRentalService
     {
-        IRentalsDal _rentalsDal;
-        public RentalManager(IRentalsDal rentalsDal)
+        IRentalDal _rentalDal;
+        public RentalManager(IRentalDal rentalDal)
         {
-            _rentalsDal = rentalsDal;
+            _rentalDal = rentalDal;
         }
-        public IResult Add(Rentals rental)
+        public IResult Add(Rental rental)
         {
-            _rentalsDal.Add(rental);
+            _rentalDal.Add(rental);
             return new SuccessResult(Messages.RentalAdded);
         }
 
-        public IResult Delete(Rentals rental)
+        public IResult Delete(Rental rental)
         {
-            _rentalsDal.Delete(rental);
+            _rentalDal.Delete(rental);
             return new SuccessResult(Messages.RentalDeleted);
         }
 
-        public IDataResult<List<Rentals>> GetAll()
+        public IDataResult<List<Rental>> GetAll()
         {
-            return new SuccessDataResult<List<Rentals>>(_rentalsDal.GetAll(), Messages.RentalListed);
+            return new SuccessDataResult<List<Rental>>(_rentalDal.GetAll(), Messages.RentalListed);
         }
 
-        public IDataResult<List<Rentals>> GetRentalByCarId(int id)
+        public IDataResult<List<Rental>> GetRentalByCarId(int id)
         {
-            if (_rentalsDal.Get(r => r.CarId == id) == null)
-                return new ErrorDataResult<List<Rentals>>(Messages.RentalNotFound);
-            return new SuccessDataResult<List<Rentals>>(_rentalsDal.GetAll(r => r.CarId == id));
+            if (_rentalDal.Get(r => r.CarId == id) == null)
+                return new ErrorDataResult<List<Rental>>(Messages.RentalNotFound);
+            return new SuccessDataResult<List<Rental>>(_rentalDal.GetAll(r => r.CarId == id));
         }
 
-        public IDataResult<List<Rentals>> GetRentalsByCustomerId(int id)
+        public IDataResult<List<Rental>> GetRentalByCustomerId(int id)
         {
-            return new SuccessDataResult<List<Rentals>>(_rentalsDal.GetAll(r => r.CustomerId == id));
+            return new SuccessDataResult<List<Rental>>(_rentalDal.GetAll(r => r.CustomerId == id));
         }
 
-        public IDataResult<Rentals> GetRentalsByid(int id)
+        public IDataResult<Rental> GetRentalByid(int id)
         {
-            return new SuccessDataResult<Rentals>(_rentalsDal.Get(r => r.Id == id), Messages.RentalListed);
+            return new SuccessDataResult<Rental>(_rentalDal.Get(r => r.Id == id), Messages.RentalListed);
         }
 
-        public IResult Update(Rentals rental)
+        public IResult Update(Rental rental)
         {
-            _rentalsDal.Update(rental);
+            _rentalDal.Update(rental);
             return new SuccessResult(Messages.RentalUpdated);
             
         }

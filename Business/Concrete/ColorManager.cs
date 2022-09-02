@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
@@ -18,14 +19,39 @@ namespace Business.Concrete
             _colorDal = colorDal;
 
         }
-        public List<Color> GetAll()
+
+        public IResult Add(Color color)
         {
-            return _colorDal.GetAll();
+            throw new NotImplementedException();
         }
 
-        public Color GetById(int colorId)
+        public IResult Delete(Color color)
         {
-            return _colorDal.Get(c => c.ColorId == colorId);
+            throw new NotImplementedException();
+        }
+
+       
+
+        public IDataResult<List<Color>> GetByCarId(int carId)
+        {
+            throw new NotImplementedException();
+        }
+
+        
+
+        public IResult Update(Color color)
+        {
+            throw new NotImplementedException();
+        }
+
+        IDataResult<List<Color>> IColorService.GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        IDataResult<Color> IColorService.GetById(int colorId)
+        {
+            throw new NotImplementedException();
         }
     }
 }

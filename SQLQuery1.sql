@@ -1,1 +1,6 @@
-﻿create table CarImages (  ImageId int primary key  identity (1,1),  CarId int not null,  ImagePath nvarchar(100),  Date DateTime)
+﻿CREATE TABLE [dbo].[CarImages] (
+    [ImageId]   INT             IDENTITY (1, 1) NOT NULL,
+    [CarId]     INT             NULL,
+    [ImagePath] NVARCHAR (1000) NULL,
+    [ImageDate] DATETIME        NULL
+);

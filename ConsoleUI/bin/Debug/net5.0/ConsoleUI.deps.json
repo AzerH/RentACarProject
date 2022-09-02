@@ -44,6 +44,41 @@
           }
         }
       },
+      "Autofac/6.4.0": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "5.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/Autofac.dll": {
+            "assemblyVersion": "6.4.0.0",
+            "fileVersion": "6.4.0.0"
+          }
+        }
+      },
+      "Autofac.Extensions.DependencyInjection/8.0.0": {
+        "dependencies": {
+          "Autofac": "6.4.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Autofac.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "Autofac.Extras.DynamicProxy/6.0.1": {
+        "dependencies": {
+          "Autofac": "6.4.0",
+          "Castle.Core": "4.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.Extras.DynamicProxy.dll": {
+            "assemblyVersion": "6.0.1.0",
+            "fileVersion": "6.0.1.0"
+          }
+        }
+      },
       "Castle.Core/4.4.1": {
         "dependencies": {
           "NETStandard.Library": "1.6.1",
@@ -100,6 +135,14 @@
           "lib/netstandard1.6/Castle.Windsor.dll": {
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.1.1.0"
+          }
+        }
+      },
+      "FluentValidation/11.2.1": {
+        "runtime": {
+          "lib/net5.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.2.1.0"
           }
         }
       },
@@ -1663,8 +1706,12 @@
       },
       "Business/1.0.0": {
         "dependencies": {
+          "Autofac": "6.4.0",
+          "Autofac.Extensions.DependencyInjection": "8.0.0",
+          "Autofac.Extras.DynamicProxy": "6.0.1",
           "DataAccess": "1.0.0",
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "FluentValidation": "11.2.1"
         },
         "runtime": {
           "Business.dll": {}
@@ -1672,6 +1719,10 @@
       },
       "Core/1.0.0": {
         "dependencies": {
+          "Autofac": "6.4.0",
+          "Autofac.Extensions.DependencyInjection": "8.0.0",
+          "Autofac.Extras.DynamicProxy": "6.0.1",
+          "FluentValidation": "11.2.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
         },
         "runtime": {
@@ -1712,6 +1763,27 @@
       "path": "abp/7.3.0",
       "hashPath": "abp.7.3.0.nupkg.sha512"
     },
+    "Autofac/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tkFxl6wAPuwVhrlN8wuNADnd+k2tv4ReP7ZZSL0vjfcN0RcfC9v25ogxK6b03HC7D4NwWjSLf1G/zTG8Bw43wQ==",
+      "path": "autofac/6.4.0",
+      "hashPath": "autofac.6.4.0.nupkg.sha512"
+    },
+    "Autofac.Extensions.DependencyInjection/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nGrXNpQX2FiZpIBydK9cxZnnoqP/cUd3k/53uRERYEqLtWzKtE15R6L+j5q5ax5Rv/+3wAIkOaPePkahfqrwjg==",
+      "path": "autofac.extensions.dependencyinjection/8.0.0",
+      "hashPath": "autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512"
+    },
+    "Autofac.Extras.DynamicProxy/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+ulCOXUjbJ5dljBPZf3gRxQNPRGqg/h1cNTZ4SpXK3qiamTfRsW3gXs2w/IJ+CIDmHrFGYXLqzNd5etvzwB8kA==",
+      "path": "autofac.extras.dynamicproxy/6.0.1",
+      "hashPath": "autofac.extras.dynamicproxy.6.0.1.nupkg.sha512"
+    },
     "Castle.Core/4.4.1": {
       "type": "package",
       "serviceable": true,
@@ -1739,6 +1811,13 @@
       "sha512": "sha512-m1YCo+V+MHUqJV7+KtXlNYig93tEAnPdPevIHi8hVqV8/ceF82Nqe8vS1ROQ25nweTcxYgkrLHwhvJsH2SFwZA==",
       "path": "castle.windsor/5.1.1",
       "hashPath": "castle.windsor.5.1.1.nupkg.sha512"
+    },
+    "FluentValidation/11.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZrQD0TGd0mHqf/zErZOEaba8cBeInaJj02nqinO+0La3uE08sJ5ScTYqsCbdx9fLHsX8rh+5KH5RtL2eOUS+OA==",
+      "path": "fluentvalidation/11.2.1",
+      "hashPath": "fluentvalidation.11.2.1.nupkg.sha512"
     },
     "JetBrains.Annotations/2022.1.0": {
       "type": "package",

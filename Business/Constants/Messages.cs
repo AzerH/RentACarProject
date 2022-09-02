@@ -29,5 +29,8 @@ namespace Business.Constants
         public static string RentalUpdated = "Rental updated";
         public static string RentalListed = "Rentals are listed";
         public static string RentalNotFound = "Could not find a rental bu this CarId";
+        public static string CarImageDeleted = "Car Image has been Deleted";
+        public static string CarImageUpdated = "Car Image has been Updated";
+        public static string ImageAdded = "Car Image has been added";
     }
 }

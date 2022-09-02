@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.EntityFramework
 {
-    public class EfRentalsDal : EfEntityRepositoryBase<Rentals,CarDatabaseContext>,IRentalsDal
+    public class EfRentalDal : EfEntityRepositoryBase<Rental,CarDatabaseContext>,IRentalDal
     {
     }
 }
