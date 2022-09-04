@@ -32,5 +32,6 @@ namespace Business.Constants
         public static string CarImageDeleted = "Car Image has been Deleted";
         public static string CarImageUpdated = "Car Image has been Updated";
         public static string ImageAdded = "Car Image has been added";
+        internal static string CarImageLimitError;
     }
 }
