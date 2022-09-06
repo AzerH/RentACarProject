@@ -32,5 +32,12 @@ namespace Business.Constants
         public static string CarImageDeleted = "Car Image has been Deleted";
         public static string CarImageUpdated = "Car Image has been Updated";
         public static string ImageAdded = "Car Image has been added";
+        public static string AuthorizationDenied = "Selahiyyetiniz yoxdur";
+        public static string UserRegistered = "Qebul olundu";
+        public static string UserNotFound = "Istifadeci tapilmadi";
+        public static string PasswordError = "Parol xetasi";
+        public static string SuccessfulLogin = "Ugurlu girish";
+        public static string UserAlreadyExists = "Istifadeci movcud";
+        public static string AccessTokenCreated;
     }
 }

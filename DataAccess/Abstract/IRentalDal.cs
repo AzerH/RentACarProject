@@ -21,7 +21,7 @@ namespace DataAccess.EntityFramework
                              join cu in context.Customers
                              on r.CustomerId equals cu.CustomerId
                              join u in context.Users
-                             on cu.UserId equals u.UserId
+                             on cu.UserId equals u.Id
                              join b in context.Brands
                              on c.BrandId equals b.BrandId
 

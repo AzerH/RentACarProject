@@ -308,3 +308,10 @@ C:\Users\Qwerty\Desktop\projectsC#\RentACar\WebAPI\obj\Debug\net5.0\WebAPI.dll
 C:\Users\Qwerty\Desktop\projectsC#\RentACar\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
 C:\Users\Qwerty\Desktop\projectsC#\RentACar\WebAPI\obj\Debug\net5.0\WebAPI.pdb
 C:\Users\Qwerty\Desktop\projectsC#\RentACar\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
+C:\Users\Qwerty\Desktop\projectsC#\RentACar\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Qwerty\Desktop\projectsC#\RentACar\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Qwerty\Desktop\projectsC#\RentACar\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Qwerty\Desktop\projectsC#\RentACar\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Qwerty\Desktop\projectsC#\RentACar\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Qwerty\Desktop\projectsC#\RentACar\WebAPI\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\Qwerty\Desktop\projectsC#\RentACar\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
