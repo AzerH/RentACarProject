@@ -37,7 +37,7 @@ namespace Business.Constants
         public static string UserNotFound = "Istifadeci tapilmadi";
         public static string PasswordError = "Parol xetasi";
         public static string SuccessfulLogin = "Ugurlu girish";
-        public static string UserAlreadyExists = "Istifadeci movcud";
+        public static string UserAlreadyExists = "Istifadeci artiq movcud";
         public static string AccessTokenCreated;
     }
 }
