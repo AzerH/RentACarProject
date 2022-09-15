@@ -39,5 +39,6 @@ namespace Business.Constants
         public static string SuccessfulLogin = "Ugurlu girish";
         public static string UserAlreadyExists = "Istifadeci artiq movcud";
         public static string AccessTokenCreated;
+        internal static string ProductUpdated;
     }
 }
