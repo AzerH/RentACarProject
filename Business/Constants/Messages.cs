@@ -40,5 +40,10 @@ namespace Business.Constants
         public static string UserAlreadyExists = "Istifadeci artiq movcud";
         public static string AccessTokenCreated;
         internal static string ProductUpdated;
+        internal static string ColorAdded;
+        internal static string ColorDeleted;
+        internal static string ColorUpdated;
+        internal static string ColorsListed;
+        internal static string BrandListed;
     }
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Business.Abstract;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -11,5 +12,17 @@ namespace WebAPI.Controllers
     [ApiController]
     public class ColorController : ControllerBase
     {
+        IColorService _colorService;
+        public ColorController(IColorService colorService)
+        {
+            _colorService = colorService;
+        }
+
+        [HttpGet ("getall")]
+        public IActionResult GetAll()
+        {
+            var result = _colorService.GetAll();
+            return Ok(result);
+        }
     }
 }

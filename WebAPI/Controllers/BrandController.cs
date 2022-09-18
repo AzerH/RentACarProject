@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Business.Abstract;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -11,5 +12,17 @@ namespace WebAPI.Controllers
     [ApiController]
     public class BrandController : ControllerBase
     {
+        IBrandService _brandService;
+        public BrandController(IBrandService brandService)
+        {
+            _brandService = brandService;
+        }
+        [HttpGet ("getall")]
+        public IActionResult GetAll()
+        {
+            var result = _brandService.GetAll();
+            return Ok(result);
+        }
+
     }
 }
