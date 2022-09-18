@@ -8922,19 +8922,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Qwerty\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\ConsoleUI\\ConsoleUI.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\ConsoleUI\\ConsoleUI.csproj",
       "projectName": "ConsoleUI",
-      "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\ConsoleUI\\ConsoleUI.csproj",
-      "packagesPath": "C:\\Users\\Qwerty\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\ConsoleUI\\obj\\",
+      "projectPath": "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\ConsoleUI\\ConsoleUI.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\ConsoleUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8948,8 +8948,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Business\\Business.csproj"
+            "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\Business\\Business.csproj"
             }
           }
         }
@@ -8978,7 +8978,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }

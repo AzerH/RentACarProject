@@ -23,7 +23,7 @@ namespace WebAPI.Controllers
         public IActionResult GetAll()
         {
             var result = _carService.GetAll();
-            return Ok(result.Data);
+            return Ok(result);
 
         }
 

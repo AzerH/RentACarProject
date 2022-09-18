@@ -83,3 +83,20 @@ C:\Users\Qwerty\Desktop\projectsC#\RentACar\DataAccess\obj\Debug\net5.0\DataAcce
 C:\Users\Qwerty\Desktop\projectsC#\RentACar\DataAccess\obj\Debug\net5.0\DataAccess.dll
 C:\Users\Qwerty\Desktop\projectsC#\RentACar\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
 C:\Users\Qwerty\Desktop\projectsC#\RentACar\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+C:\Users\admin\Desktop\c# projects\RentACarProject\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+C:\Users\admin\Desktop\c# projects\RentACarProject\DataAccess\bin\Debug\net5.0\DataAccess.dll
+C:\Users\admin\Desktop\c# projects\RentACarProject\DataAccess\bin\Debug\net5.0\ref\DataAccess.dll
+C:\Users\admin\Desktop\c# projects\RentACarProject\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\admin\Desktop\c# projects\RentACarProject\DataAccess\bin\Debug\net5.0\Core.dll
+C:\Users\admin\Desktop\c# projects\RentACarProject\DataAccess\bin\Debug\net5.0\Entities.dll
+C:\Users\admin\Desktop\c# projects\RentACarProject\DataAccess\bin\Debug\net5.0\Core.pdb
+C:\Users\admin\Desktop\c# projects\RentACarProject\DataAccess\bin\Debug\net5.0\Entities.pdb
+C:\Users\admin\Desktop\c# projects\RentACarProject\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\c# projects\RentACarProject\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\c# projects\RentACarProject\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\c# projects\RentACarProject\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+C:\Users\admin\Desktop\c# projects\RentACarProject\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\c# projects\RentACarProject\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+C:\Users\admin\Desktop\c# projects\RentACarProject\DataAccess\obj\Debug\net5.0\DataAccess.dll
+C:\Users\admin\Desktop\c# projects\RentACarProject\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+C:\Users\admin\Desktop\c# projects\RentACarProject\DataAccess\obj\Debug\net5.0\DataAccess.pdb

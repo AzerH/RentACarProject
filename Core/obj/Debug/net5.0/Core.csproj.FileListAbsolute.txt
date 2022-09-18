@@ -46,3 +46,15 @@ C:\Users\Qwerty\Desktop\projectsC#\RentACar\Core\obj\Debug\net5.0\Core.csproj.Co
 C:\Users\Qwerty\Desktop\projectsC#\RentACar\Core\obj\Debug\net5.0\Core.dll
 C:\Users\Qwerty\Desktop\projectsC#\RentACar\Core\obj\Debug\net5.0\ref\Core.dll
 C:\Users\Qwerty\Desktop\projectsC#\RentACar\Core\obj\Debug\net5.0\Core.pdb
+C:\Users\admin\Desktop\c# projects\RentACarProject\Core\bin\Debug\net5.0\Core.deps.json
+C:\Users\admin\Desktop\c# projects\RentACarProject\Core\bin\Debug\net5.0\Core.dll
+C:\Users\admin\Desktop\c# projects\RentACarProject\Core\bin\Debug\net5.0\ref\Core.dll
+C:\Users\admin\Desktop\c# projects\RentACarProject\Core\bin\Debug\net5.0\Core.pdb
+C:\Users\admin\Desktop\c# projects\RentACarProject\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\c# projects\RentACarProject\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\c# projects\RentACarProject\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\c# projects\RentACarProject\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+C:\Users\admin\Desktop\c# projects\RentACarProject\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\c# projects\RentACarProject\Core\obj\Debug\net5.0\Core.dll
+C:\Users\admin\Desktop\c# projects\RentACarProject\Core\obj\Debug\net5.0\ref\Core.dll
+C:\Users\admin\Desktop\c# projects\RentACarProject\Core\obj\Debug\net5.0\Core.pdb
