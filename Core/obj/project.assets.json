@@ -7832,19 +7832,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\Qwerty\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\Core\\obj\\",
+      "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\Qwerty\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7926,7 +7926,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

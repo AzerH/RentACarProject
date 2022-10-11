@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\Core\\Core.csproj": {
+    "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Qwerty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,21 +96,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Qwerty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,11 +124,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\Core\\Core.csproj"
+              "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj"
               },
-              "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Entities\\Entities.csproj"
               }
             }
           }
@@ -167,21 +167,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Qwerty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -195,8 +195,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\admin\\Desktop\\c# projects\\RentACarProject\\Core\\Core.csproj"
+              "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Qwerty\\Desktop\\projectsC#\\RentACar\\Core\\Core.csproj"
               }
             }
           }
@@ -225,7 +225,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -12,10 +12,10 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class RentACarController : ControllerBase
+    public class CarsController : ControllerBase
     {
         ICarService _carService;
-        public RentACarController(ICarService carService)
+        public CarsController(ICarService carService)
         {
             _carService = carService;
         }
@@ -23,7 +23,7 @@ namespace WebAPI.Controllers
         [HttpGet ("getall")]
         public IActionResult GetAll()
         {
-            Thread.Sleep(5000);
+            //Thread.Sleep(5000);
             var result = _carService.GetAll();
             return Ok(result);
 
@@ -40,9 +40,29 @@ namespace WebAPI.Controllers
         
         public IActionResult GetById(int id)
         {
-            var result = _carService.GetCarByid(id);
+            var result = _carService.GetCarById(id);
             if (result.Success)
                 return Ok(result.Data);
+            return BadRequest(result.Message);
+
+
+        }
+        [HttpGet("getbybrandid")]
+        public IActionResult GetByBrandId(int brandId)
+        {
+            var result = _carService.GetByBrandId(brandId);
+            if (result.Success)
+                return Ok(result);
+            return BadRequest(result.Message);
+
+
+        }
+        [HttpGet("getbycolorid")]
+        public IActionResult GetByColorId(int colorId)
+        {
+            var result = _carService.GetByBrandId(colorId);
+            if (result.Success)
+                return Ok(result);
             return BadRequest(result.Message);
 
 

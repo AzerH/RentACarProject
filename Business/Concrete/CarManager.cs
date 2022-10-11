@@ -65,12 +65,13 @@ namespace Business.Concrete
 
         public IDataResult<List<Car>> GetByBrandId(int id)
         {
+            
             return new SuccessDataResult<List<Car>>( _carDal.GetAll(c => c.BrandId == id));
         }
 
         [CacheAspect]
         [PerformanceAspect(5)]
-        public IDataResult<Car> GetCarByid(int id)
+        public IDataResult<Car> GetCarById(int id)
         {
             return new SuccessDataResult<Car>(_carDal.Get(c => c.CarId == id));
         }
